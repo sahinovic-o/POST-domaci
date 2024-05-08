@@ -1,0 +1,24 @@
+//GET
+// http://localhost/Post/registracija.php?ime=Toma&lozinka=1234
+// HTTP, HTTPS - Protokoli za slanje podataka
+// GET, POST - HTTP protokoli 
+
+// Browser (form) -> Hacker -> Server(PHP)
+// Hacker: registracija.php?ime=Toma&lozinka=1234
+// Middleman attack
+
+//Extra je za: pretrage, stranice proizvoda, stranice za video klipove ..
+// Losa je za: Registraciju,kupovinu , bilo kakve akcije sa povjerljivim
+// informacijama
+
+// kupovina.php?card=1314263647&cvv=1245
+
+
+// POST
+// registracija.php
+// $_GET ["ime" -> "Omar"], $_POST["ime"-> "Omar"];
+// Podaci se jos uvijek salju, ali nisu vidljivi korisnikuž
+// Dobra: registracija, placanje, bilo kakve povjerljive informacije
+// Losa : Pretraga (uvijek ista adresa)
+
+// $_GET - pretraga.php?ime="Hljeb", $_POST - pretraga.php
